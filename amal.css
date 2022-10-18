@@ -7,14 +7,13 @@ html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
-    background: #ffffff;
+    background: #eee;
     height: auto;
 }
 
 h1 {
     font-weight: 400;
     font-size: 2.5rem;
-    color: black;
     text-transform: uppercase;
     margin: 0;
 }
@@ -38,14 +37,7 @@ main {
 }
 
 #landing {
-    background:white;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30vh;
-    flex: 0 1 60vw;
-    margin: 0;
-    
+    background: #fff;
 }
 
 #landing-text {
@@ -60,7 +52,7 @@ main {
 }
 
 #landing-text h2 {
-    color: black;
+    color: #888;
 }
 
 #landing-image {
@@ -75,28 +67,24 @@ main {
 
 .btn {
     padding: 0.5rem 2rem;
-    background: black;
     border: 1px solid #ccc;
     display: inline-block;
     margin: 2rem 0 0;
     border-radius: 50px;
     text-decoration: none;
-    color: white;
+    color: #333;
     transition: background 500ms ease;
 }
 
 .btn:hover {
     background: #f4f4f4;
 }
-.a{
-    text-decoration: none;
-}
 
 #header {
     padding: 1.5rem;
     text-align: center;
-    background: white;
-    color: black;
+    background: #333;
+    color: #fff;
 }
 
 #header h2 {
@@ -153,6 +141,7 @@ footer p a {
         padding: 1rem 3rem;
     }
 }
+
 .btn1 {
   width: 90px;
   height: 50px;
