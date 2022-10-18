@@ -1,0 +1,98 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://use.fontawesome.com/fab417e5fd.js"></script>
+      <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/material-photo-gallery.min.js"></script>
+     
+<title>AMAL DAS/GALLERY</title>
+<link rel="stylesheet" href="amal1.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="amal.css">
+  </head>
+  <body data-spy="scroll" data-target="#ss-nav">
+  	<main>
+        <!--Landing Area-->
+        <div id="landing">
+            <div id="landing-text">
+                <div id="landing-text-inner">
+                    <h1>AMAL DAS PHOTOGRAPHY</h1>
+                    <h2></h2>
+                    <a href="index.html" class="btn" id="view-work">
+                        ←← HOME PAGE
+                    </a>
+                </div>
+            </div>
+            <div id="landing-image"></div>
+        </div>
+
+
+ <h1>MY WORKS</h1><hr>
+<div id="gallery" class="container-fluid">  
+  <img src="pic/44545.jpg" class="img-responsive">
+  <img src="pic/154684.jpg" class="img-responsive">
+   <img src="pic/5454554.jpg" class="img-responsive">
+  
+  <img src="pic/6565645.jpg" class="img-responsive">
+  <img src="pic/45456456.jpg" class="img-responsive">
+<img src="pic/445645645.jpg" class="img-responsive">
+  <img src="pic/465456456.jpg" class="card img-responsive">
+  <img src="pic/5454564564.jpg" class="img-responsive">
+  <img src="pic/2564512231225.jpg" class="img-responsive">
+  <img src="pic/1605422960753.jpg" class="img-responsive">
+  <img src="pic/52544564564.jpg" class="img-responsive">
+<img src="pic/1599062902813.jpg" class="img-responsive">
+<img src="pic/4545644654.jpg" class="img-responsive">
+<img src="pic/1608820486488.jpg" class="img-responsive">
+
+
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+      </div>
+    </div>
+
+  </div>
+</div>
+<div id="CONTACT">
+    <footer>
+        <h3>Get In Touch</h3>
+        <p>Email or call me to set up a consult</p>
+        <p>Email: <strong>amaldaz4446@gmail.com</strong></p>
+        <p>Phone:
+            <a href="#">
+                <strong>8590689125</strong>
+            </a>
+        </p>
+        FOLLOW ME ON
+<button class="btn1">
+    <a href="https://instagram.com/thugjeevitham?igshid=YmMyMTA2M2Y=">
+    <i class="fa fa-instagram" style="font-size:15px;">Instagram</i>
+  </button>
+</a>
+    </footer>
+</div>   
+    <script>
+    	$(document).ready(function(){
+  $("img").click(function(){
+  var t = $(this).attr("src");
+  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+  $("#myModal").modal();
+})
+
+$("video").click(function(){
+  var v = $("video > source");
+  var t = v.attr("src");
+  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+  $("#myModal").modal();  
+})
+})
+</script>
+  </body></html>
